@@ -1,5 +1,5 @@
 
-export const courseCard = [
+ const courseCard = [
     {
         id: 1,
         title: "React Fundamentals",
@@ -40,3 +40,5 @@ export const courseCard = [
   
 
 ];
+
+export default courseCard

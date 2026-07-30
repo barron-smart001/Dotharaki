@@ -18,7 +18,7 @@ export default function StudentTestimonials() {
       </h2>
       
       {/* Grid Layout: 1 column on mobile, 2 columns from 'md' breakpoint up */}
-      <div className="grid grid-cols-2 md:grid-cols-2 gap-6 items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
         {Students.map((student) => (
           <div 
             key={student.id} 

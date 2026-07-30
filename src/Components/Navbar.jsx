@@ -17,7 +17,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full bg-white border-b border-slate-100 relative z-50">
+    <nav className="sticky top-0 left-0 w-full bg-white border-b border-slate-100 relative z-50">
       {/* Main Navbar Top Row */}
       <div className="w-full h-[60px] px-6 md:px-[180px] flex items-center justify-between">
 

@@ -5,8 +5,8 @@ export default function AboutSection() {
     <div className="min-h-[calc(100vh-64px)] flex flex-col justify-between font-sans">
       
 
-      <div className="max-w-6xl w-full mx-auto px-6 py-20 flex-grow">
-        <div className="max-w-2xl">
+      <div className="max-w-6xl w-full mx-auto px-6 py-15 flex-grow">
+        <div className="max-w-130  mx-50">
           <h2 className="text-xl font-bold text-slate-900 mb-3 tracking-tight">
             About Student Hub
           </h2>

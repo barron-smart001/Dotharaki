@@ -6,7 +6,7 @@ export default function Lastnig (){
 
 return(
 
-      <div className="max-w-6xl mx-auto px-4 py-8">
+      <div className="max-w-5xl mx-auto px-4 py-8">
       {/* Responsive Grid: 1 col on mobile, 2 on tablets, 4 on desktop */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {Omor.map((omorCards) => (

@@ -2,7 +2,7 @@ import { Categories } from "../Data/Category";
 
 export default function CategoryDisplay() {
     return (
-        <div className="max-w-6xl mx-auto px-4 py-8">
+        <div className="">
             {/* Header Section */}
             <h2 className="text-2xl font-bold text-slate-800 mb-1">Popular Categories</h2>
             <p className="text-sm text-slate-500 mb-8">Browse courses by the skills you want to build.</p>

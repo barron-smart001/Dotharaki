@@ -1,11 +1,9 @@
-// import React from 'react';
+
 import { Link } from 'react-router-dom';
-// 1. You correctly imported courseCard here
-import { courseCard } from '../Data/Course'; 
+import  courseCard  from '../Data/Course'; 
 
 const FeaturedCourses = () => {
   
-  // 2. Helper function to instantly style levels dynamically without messy markup
   const getLevelStyles = (level) => {
     if (level?.toLowerCase() === 'advanced') {
       return "bg-purple-50 text-purple-700 border-purple-200/50";
@@ -13,7 +11,7 @@ const FeaturedCourses = () => {
     if (level?.toLowerCase() === 'intermediate') {
       return "bg-blue-50 text-blue-700 border-blue-200/50";
     }
-    // Default fallback styles for Beginner
+    
     return "bg-emerald-50 text-emerald-700 border-emerald-200/50";
   };
 
@@ -22,7 +20,7 @@ const FeaturedCourses = () => {
       
      
 
-      {/* Responsive Grid Layout */}
+      
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {/* FIX: Changed "courses.slice" to "courseCard.slice" to match your import variable */}
         {courseCard.slice(0, 3).map((course) => (

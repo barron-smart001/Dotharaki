@@ -20,7 +20,7 @@ export default function Register() {
 
   return (
     <>
-    <div className="max-w-md w-full mx-auto px-6 py-20 font-sans min-h-[calc(100vh-64px)]">
+    <div className="max-w-md w-full mx-auto px-6 py-5 font-sans min-h-2xl">
       <h2 className="text-xl font-bold text-[#0f172a] mb-6 tracking-tight">Register</h2>
       
       <form onSubmit={handleSubmit} className="flex flex-col gap-5">
